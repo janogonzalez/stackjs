@@ -4,8 +4,16 @@ A simple stack data structure for Node.js and the browser.
 
 ## Installation
 
+As component for the browser:
+
 ```
 $ component install janogonzalez/stackjs
+```
+
+As npm for Node.js:
+
+```
+$ npm install stackjs
 ```
 
 ## Example
@@ -48,6 +56,12 @@ Pushes the `element` at the top of the `Stack` and returns its new size.
 ### stack#size()
 
 Returns the size of the `Stack`.
+
+## Testing
+
+```
+$ npm test
+```
 
 ## Licence
 
