@@ -1,0 +1,26 @@
+{
+  "name": "stackjs",
+  "version": "0.0.1",
+  "description": "a simple stack data structure",
+  "author": "Jano González <info@janogonzalez.com>",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "readmeFilename": "README.md",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "scripts": {
+    "test": "mocha --require should"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/janogonzalez/stackjs.git"
+  },
+  "keywords": [
+    "stack",
+    "datastructure"
+  ],
+  "license": "MIT"
+}

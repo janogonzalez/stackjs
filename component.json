@@ -1,0 +1,13 @@
+{
+  "name": "stackjs",
+  "repo": "janogonzalez/stackjs",
+  "description": "a simple stack data structure",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
