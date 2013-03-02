@@ -14,7 +14,7 @@ function Stack() {
 }
 
 /**
- * Returns whether the `Stack` is empty or not.
+ * Returns whether the stack is empty or not.
  *
  * @return {Boolean}
  * @api public
@@ -24,10 +24,10 @@ Stack.prototype.empty = function() {
 };
 
 /**
- * Peeks at the top element of the `Stack`.
+ * Peeks at the top element of the stack.
  *
  * @return {Object}
- * @throws {Error} when the `Stack` is empty.
+ * @throws {Error} when the stack is empty.
  * @api public
  */
 Stack.prototype.peek = function() {
@@ -37,10 +37,10 @@ Stack.prototype.peek = function() {
 };
 
 /**
- * Pops the top element of the `Stack`.
+ * Pops the top element of the stack.
  *
  * @return {Object}
- * @throws {Error} when the `Stack` is empty.
+ * @throws {Error} when the stack is empty.
  * @api public
  */
 Stack.prototype.pop = function() {
@@ -50,7 +50,7 @@ Stack.prototype.pop = function() {
 };
 
 /**
- * Pushes the `element` at the top of the `Stack` and returns its new size.
+ * Pushes the `element` at the top of the stack and returns its new size.
  *
  * @param {Object} element
  * @return {Number}
@@ -61,7 +61,7 @@ Stack.prototype.push = function(element) {
 };
 
 /**
- * Returns the size of the `Stack`.
+ * Returns the size of the stack.
  *
  * @return {Number}
  * @api public

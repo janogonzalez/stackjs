@@ -39,25 +39,25 @@ Initializes a new empty `Stack`.
 
 ### Stack#empty()
 
-Returns whether the `Stack` is empty or not.
+Returns whether the stack is empty or not.
 
 ### Stack#peek()
 
-Peeks at the top element of the `Stack`.
-Throws an `Error` when the `Stack` is empty.
+Peeks at the top element of the stack.
+Throws an `Error` when the stack is empty.
 
 ### Stack#pop()
 
-Pops the top element of the `Stack`.
-Throws an `Error` when the `Stack` is empty.
+Pops the top element of the stack.
+Throws an `Error` when the stack is empty.
 
 ### Stack#push(element)
 
-Pushes the `element` at the top of the `Stack` and returns its new size.
+Pushes the `element` at the top of the stack and returns its new size.
 
 ### Stack#size()
 
-Returns the size of the `Stack`.
+Returns the size of the stack.
 
 ## Testing
 
