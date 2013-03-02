@@ -61,6 +61,14 @@ Returns the size of the stack.
 
 ## Testing
 
+As component in the browser, open test/test.html in your browser:
+
+```
+$ open test/test.html
+```
+
+As npm package:
+
 ```
 $ npm test
 ```

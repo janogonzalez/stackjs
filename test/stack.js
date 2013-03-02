@@ -1,6 +1,3 @@
-var expect = require('expect.js'),
-    Stack = require('./index');
-
 describe('Stack()', function() {
   it('returns an new Stack', function() {
     expect(new Stack()).to.be.a(Stack);
