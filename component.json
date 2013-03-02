@@ -2,8 +2,11 @@
   "name": "stackjs",
   "repo": "janogonzalez/stackjs",
   "description": "a simple stack data structure",
-  "version": "0.0.1",
-  "keywords": [],
+  "version": "0.0.2",
+  "keywords": [
+    "stack",
+    "datastructure"
+  ],
   "dependencies": {},
   "development": {},
   "license": "MIT",
