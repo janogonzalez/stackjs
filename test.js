@@ -6,7 +6,7 @@ describe('Stack()', function() {
     expect(new Stack()).to.be.a(Stack);
   });
 
-  describe('#empty', function() {
+  describe('#empty()', function() {
     it('returns true when the stack is empty', function() {
       var stack = new Stack();
       expect(stack.empty()).to.be(true);
