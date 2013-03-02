@@ -7,6 +7,7 @@ module.exports = Stack;
  * Initializes a new empty `Stack`.
  *
  * @return {Stack}
+ * @api public
  */
 function Stack() {
   this._elements = [];
@@ -16,6 +17,7 @@ function Stack() {
  * Returns whether the `Stack` is empty or not.
  *
  * @return {Boolean}
+ * @api public
  */
 Stack.prototype.empty = function() {
   return this.size() === 0;
@@ -25,7 +27,8 @@ Stack.prototype.empty = function() {
  * Peeks at the top element of the `Stack`.
  *
  * @return {Object}
- * @throws {Error} when the stack is empty.
+ * @throws {Error} when the `Stack` is empty.
+ * @api public
  */
 Stack.prototype.peek = function() {
   if (this.empty()) throw new Error('Stack is empty');
@@ -37,7 +40,8 @@ Stack.prototype.peek = function() {
  * Pops the top element of the `Stack`.
  *
  * @return {Object}
- * @throws {Error} when the stack is empty.
+ * @throws {Error} when the `Stack` is empty.
+ * @api public
  */
 Stack.prototype.pop = function() {
   if (this.empty()) throw new Error('Stack is empty');
@@ -50,6 +54,7 @@ Stack.prototype.pop = function() {
  *
  * @param {Object} element
  * @return {Number}
+ * @api public
  */
 Stack.prototype.push = function(element) {
   return this._elements.push(element);
@@ -59,6 +64,7 @@ Stack.prototype.push = function(element) {
  * Returns the size of the `Stack`.
  *
  * @return {Number}
+ * @api public
  */
 Stack.prototype.size = function() {
   return this._elements.length;

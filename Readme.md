@@ -24,9 +24,11 @@ var Stack = require('stackjs');
 var stack = new Stack();
 
 stack.push(10);
+stack.push(5);
+stack.size(); // 2
+stack.peek(); // 5
+stack.pop(); // 5
 stack.size(); // 1
-stack.peek(); // 10
-stack.pop(); // 10
 ```
 
 ## API
@@ -35,25 +37,25 @@ stack.pop(); // 10
 
 Initializes a new empty `Stack`.
 
-### stack#empty()
+### Stack#empty()
 
 Returns whether the `Stack` is empty or not.
 
-### stack#peek()
+### Stack#peek()
 
 Peeks at the top element of the `Stack`.
-Throws an `Error` when the stack is empty.
+Throws an `Error` when the `Stack` is empty.
 
-### stack#pop()
+### Stack#pop()
 
 Pops the top element of the `Stack`.
-Throws an `Error` when the stack is empty.
+Throws an `Error` when the `Stack` is empty.
 
-### stack#push(element)
+### Stack#push(element)
 
 Pushes the `element` at the top of the `Stack` and returns its new size.
 
-### stack#size()
+### Stack#size()
 
 Returns the size of the `Stack`.
 
