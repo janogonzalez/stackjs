@@ -1,4 +1,9 @@
-0.0.1 / 2013-03-01
+0.0.3 / 2013-03-02
+==================
+
+  * Tests for both Node.js and the browser.
+
+0.0.2 / 2013-03-02
 ==================
 
   * Using expect.js for assertions.

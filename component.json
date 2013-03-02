@@ -2,7 +2,7 @@
   "name": "stackjs",
   "repo": "janogonzalez/stackjs",
   "description": "a simple stack data structure",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "stack",
     "datastructure"

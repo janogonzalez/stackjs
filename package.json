@@ -1,6 +1,6 @@
 {
   "name": "stackjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a simple stack data structure",
   "author": "Jano González <info@janogonzalez.com>",
   "devDependencies": {
