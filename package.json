@@ -1,18 +1,18 @@
 {
   "name": "stackjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a simple stack data structure",
   "author": "Jano González <info@janogonzalez.com>",
   "devDependencies": {
     "mocha": "*",
-    "should": "*"
+    "expect.js": "*"
   },
   "readmeFilename": "README.md",
   "main": "index.js",
   "dependencies": {
   },
   "scripts": {
-    "test": "mocha --require should"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",

@@ -1,53 +1,54 @@
-var Stack = require('./index');
+var expect = require('expect.js'),
+    Stack = require('./index');
 
 describe('Stack()', function() {
   it('returns an new Stack', function() {
-    (new Stack()).should.be.an.instanceof(Stack);
+    expect(new Stack()).to.be.a(Stack);
   });
 
   describe('#empty', function() {
     it('returns true when the stack is empty', function() {
       var stack = new Stack();
-      stack.empty().should.be.equal(true);
+      expect(stack.empty()).to.be(true);
     });
 
     it('returns false when the stack is not empty', function() {
       var stack = new Stack();
       stack.push('jano');
-      stack.empty().should.be.equal(false);
+      expect(stack.empty()).to.be(false);
     });
   });
 
   describe('#peek()', function() {
     it('fails when the stack is empty', function() {
       var stack = new Stack();
-      (function() {
-        stack.peek().should.be.equal(0);
-      }).should.throwError('Stack is empty');
+      expect(function() {
+        stack.peek();
+      }).to.throwError('Stack is empty');
     });
 
     it('returns the top element of the stack', function() {
       var stack = new Stack();
       stack.push('jano');
       stack.push('valentina');
-      stack.peek().should.be.equal('valentina');
+      expect(stack.peek()).to.be('valentina');
     });
   });
 
   describe('#pop()', function() {
     it('fails when the stack is empty', function() {
       var stack = new Stack();
-      (function() {
+      expect(function() {
         stack.pop();
-      }).should.throwError('Stack is empty');
+      }).to.throwError('Stack is empty');
     });
 
     it('pops the top element of the stack', function() {
       var stack = new Stack();
       stack.push('jano');
       stack.push('valentina');
-      stack.pop().should.be.equal('valentina');
-      stack.size().should.be.equal(1);
+      expect(stack.pop()).to.be('valentina');
+      expect(stack.size()).to.be(1);
     });
   });
 
@@ -56,27 +57,27 @@ describe('Stack()', function() {
       var stack = new Stack();
       stack.push('jano');
       stack.push('valentina');
-      stack.peek().should.equal('valentina');
-      stack.size().should.be.equal(2);
+      expect(stack.peek()).to.be('valentina');
+      expect(stack.size()).to.be(2);
     });
 
     it('returns the new size of the stack', function() {
       var stack = new Stack();
-      stack.push('jano').should.equal(1);
+      expect(stack.push('jano')).to.be(1);
     });
   });
 
   describe('#size()', function() {
     it('returns 0 when the stack is empty', function() {
       var stack = new Stack();
-      stack.size().should.be.equal(0);
+      expect(stack.size()).to.be(0);
     });
 
     it('returns the size of the stack', function() {
       var stack = new Stack();
       stack.push('jano');
       stack.push('valentina');
-      stack.size().should.be.equal(2);
+      expect(stack.size()).to.be(2);
     });
   });
 });
