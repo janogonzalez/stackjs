@@ -1,6 +1,6 @@
 {
   "name": "stackjs",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "a simple stack data structure",
   "author": "Jano González <info@janogonzalez.com>",
   "devDependencies": {
@@ -20,7 +20,7 @@
   },
   "keywords": [
     "stack",
-    "datastructure"
+    "data structure"
   ],
   "license": "MIT"
 }
