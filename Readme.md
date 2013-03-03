@@ -37,7 +37,7 @@ stack.size(); // 1
 
 Initializes a new empty `Stack`.
 
-### Stack#empty()
+### Stack#isEmpty()
 
 Returns whether the stack is empty or not.
 
@@ -64,6 +64,7 @@ Returns the size of the stack.
 As component in the browser, open test/test.html in your browser:
 
 ```
+$ make
 $ open test/test.html
 ```
 

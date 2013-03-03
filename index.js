@@ -19,7 +19,7 @@ function Stack() {
  * @return {Boolean}
  * @api public
  */
-Stack.prototype.empty = function() {
+Stack.prototype.isEmpty = function() {
   return this.size() === 0;
 };
 
@@ -31,7 +31,7 @@ Stack.prototype.empty = function() {
  * @api public
  */
 Stack.prototype.peek = function() {
-  if (this.empty()) throw new Error('Stack is empty');
+  if (this.isEmpty()) throw new Error('Stack is empty');
 
   return this._elements[this.size() - 1];
 };
@@ -44,7 +44,7 @@ Stack.prototype.peek = function() {
  * @api public
  */
 Stack.prototype.pop = function() {
-  if (this.empty()) throw new Error('Stack is empty');
+  if (this.isEmpty()) throw new Error('Stack is empty');
 
   return this._elements.pop();
 };

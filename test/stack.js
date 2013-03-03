@@ -3,16 +3,16 @@ describe('Stack()', function() {
     expect(new Stack()).to.be.a(Stack);
   });
 
-  describe('#empty()', function() {
+  describe('#isEmpty()', function() {
     it('returns true when the stack is empty', function() {
       var stack = new Stack();
-      expect(stack.empty()).to.be(true);
+      expect(stack.isEmpty()).to.be(true);
     });
 
     it('returns false when the stack is not empty', function() {
       var stack = new Stack();
       stack.push('jano');
-      expect(stack.empty()).to.be(false);
+      expect(stack.isEmpty()).to.be(false);
     });
   });
 
