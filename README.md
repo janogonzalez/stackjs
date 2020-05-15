@@ -1,5 +1,8 @@
 # stack.js
 
+[![Build Status](https://travis-ci.com/janogonzalez/stackjs.svg?branch=master)](
+  https://travis-ci.com/janogonzalez/stackjs)
+
 A simple stack data structure for Node.js.
 
 ## Installation
