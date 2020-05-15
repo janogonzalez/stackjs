@@ -2,25 +2,26 @@
   "name": "stackjs",
   "version": "0.1.0",
   "description": "a simple stack data structure",
-  "author": "Jano González <info@janogonzalez.com>",
-  "devDependencies": {
-    "mocha": "*",
-    "expect.js": "*"
-  },
-  "readmeFilename": "README.md",
-  "main": "index.js",
-  "dependencies": {
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/janogonzalez/stackjs.git"
-  },
   "keywords": [
     "stack",
     "data structure"
   ],
-  "license": "MIT"
+  "homepage": "https://github.com/janogonzalez/stackjs",
+  "bugs": {
+    "url": "https://github.com/janogonzalez/stackjs/issues"
+  },
+  "license": "MIT",
+  "author": "Jano González <info@janogonzalez.com> (http://janogonzalez.com)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/janogonzalez/stackjs.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*"
+  }
 }

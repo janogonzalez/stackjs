@@ -1,3 +1,8 @@
+1.0.0 / 2020-05-15
+==================
+
+  * Stop supporting component and browser builds.
+
 0.1.0 / 2013-03-03
 ==================
 

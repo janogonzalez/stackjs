@@ -1,19 +1,11 @@
 # stack.js
 
-A simple stack data structure for Node.js and the browser.
+A simple stack data structure for Node.js.
 
 ## Installation
 
-As component for the browser:
-
 ```
-$ component install janogonzalez/stackjs
-```
-
-As npm for Node.js:
-
-```
-$ npm install stackjs
+npm install stackjs
 ```
 
 ## Example
@@ -61,17 +53,9 @@ Returns the size of the stack.
 
 ## Testing
 
-As component in the browser, open test/test.html in your browser:
-
 ```
-$ make
-$ open test/test.html
-```
-
-As npm package:
-
-```
-$ npm test
+npm install
+npm test
 ```
 
 ## Licence
